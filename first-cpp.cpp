@@ -4,9 +4,9 @@ using namespace std;
   
 
 int main() 
-{ int a;
+{
  
-    cout<<"Welcome to CodeKul";
+    cout<<"Welcome to CodeKul"<<endl;
       
     return 0; 
 } 
