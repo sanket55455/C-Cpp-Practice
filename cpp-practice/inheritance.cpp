@@ -53,7 +53,7 @@ int main()  //main function.
 {
 
    PetAnimal dog;  //object.
-   dog.tractor();//function call.
+   dog.dog();//function call.
 
 
 

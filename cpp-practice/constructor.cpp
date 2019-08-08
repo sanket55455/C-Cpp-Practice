@@ -13,7 +13,7 @@ class Bus
     }
 
 
-    void driver()//other functions.
+    int driver()//other functions.
     {
         cout<<"Driving bus"<<endl;
     }
@@ -22,15 +22,22 @@ class Bus
     {
         cout<<"collecting Tickets"<<endl;
     }
-~Bus;//destructor.
+// ~Bus;//destructor.
 };
 
+class Car : public Bus {
+public:
+Car(){
+    cout<<"car classs"<<endl;
+}
+
+};
 
 int main()
 {
-      Bus govt;//govt<- object
+      Car govt;//govt<- object
       govt.driver();
-      govt.conductor();
+    //   govt.conductor();
 
       return 0;
 }
