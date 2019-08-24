@@ -16,6 +16,7 @@ int main()
         remainder = originalNumber%10;
         result += remainder*remainder*remainder;
         originalNumber /= 10;
+       
     }
 
     if(result == number)

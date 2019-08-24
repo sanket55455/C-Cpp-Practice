@@ -6,7 +6,10 @@ int main()
     printf("Enter the year\n");
     scanf("%d",&yr);
 
+//    if(yr/4==0)
    if(yr%4==0)
+
+
 {
     printf("leap year.\n");
 }

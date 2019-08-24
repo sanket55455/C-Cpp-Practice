@@ -14,7 +14,7 @@ int main()
     {     
         r=num*i;
     
-        printf("5 * %d = %d\n",i,r);   //(num*i)   %d * %d
+        printf("%d * %d = %d\n",num,i,r);   //(num*i)   %d * %d
     }
     return 0;
 }
